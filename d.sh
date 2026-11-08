@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-IP=${1:?Uso: sudo bash d.sh IP_DE_LA_VM}
+IP=${1:?Uso: sudo bash d.sh 10.2.31.178}
 apt update
 apt install -y docker.io docker-compose-v2
 mkdir -p /root/suitecrm-docker

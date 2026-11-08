@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-IP=${1:?Uso: sudo bash n.sh IP_DE_LA_VM}
+IP=${1:?Uso: sudo bash n.sh 10.2.31.178}
 V=8.8.0
 apt update
 apt install -y apache2 mariadb-server unzip curl wget php libapache2-mod-php php-cli php-mysql php-curl php-gd php-intl php-mbstring php-xml php-zip php-bcmath php-soap php-ldap php-opcache
